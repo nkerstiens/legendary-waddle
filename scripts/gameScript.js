@@ -50,8 +50,8 @@ var el = `<div class='card text-center mx-auto bg-dark blue' style="width: 200px
   <button class='cardOpen2 btn btn-outline-info'> ${ item.title } </button> \
    <div class='cardHide'> \
        <br> \
-       <a href="https://gist.github.com/barrycumbie/2734a9660bacf7cbcc73c65abee0a1c6" target="_blank" class="link-info" >GAME LINK</a> \
-       <p class="text-white">Create by: ${item.author} </p> \
+       <a href="${ item.link }" target="_blank" class="link-info" >GAME LINK</a> \
+       <p class="text-white">Create by: ${ item.author } </p> \
        <br> \
        <button class='btn btn-outline-info cardClose2'>Close</button> \
    </div>
