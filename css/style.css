@@ -171,6 +171,12 @@ article {
 	margin-left: 325px;
 	padding: 50px; */
 }
+
+.btn-link {
+  text-decoration: none;
+  color: #000;
+}
+
 div {
   color: white;
 }
